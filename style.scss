@@ -1,0 +1,32 @@
+
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+@import "node_modules/bootstrap/scss/bootstrap";
+*{
+    font-family: Poppins, Arial, Helvetica, sans-serif;
+    
+}
+li{
+    list-style-type: none;
+
+}
+a{
+    text-decoration: none;
+}
+h1,h2,h3,h4,h5,h6{
+    color:#172B4D;
+    font-weight: 700;
+}
+#headline {
+    background-image: url("images/Header\ bg.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 100%;
+    background-position: center;
+    height: 800px;
+}
+.t-m-c{
+    margin: 5em;
+}
+
+
