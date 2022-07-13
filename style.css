@@ -41,3 +41,26 @@ h1,h2,h3,h4,h5,h6{
             gap:1em;
             padding: 0;
           }
+          .langv{
+            display: flex;
+            justify-content: space-between;
+          }
+          h3{
+             margin-top: 10em;
+          }
+          .t-m-c-d{
+            margin-top: 10em;
+          
+          }
+          .c-w{
+            font-size: 40px;
+            width: 250px;
+          }
+          .frame{
+            display: flex;
+            justify-content: space-between;
+          }
+          .skill{
+            display: flex;
+            justify-content: space-between;
+          }
