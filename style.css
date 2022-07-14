@@ -1,14 +1,12 @@
 
 
 @import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
-@import "node_modules/bootstrap/scss/bootstrap";
 *{
     font-family: Poppins, Arial, Helvetica, sans-serif;
     
 }
 li{
     list-style-type: none;
-
 }
 a{
     text-decoration: none;
@@ -35,19 +33,8 @@ h1,h2,h3,h4,h5,h6{
             margin-top: -20%;
         }
        
-        .general-flex ul{
-            display: flex;
-            flex-wrap: wrap;
-            gap:1em;
-            padding: 0;
-          }
-          .langv{
-            display: flex;
-            justify-content: space-between;
-          }
-          h3{
-             margin-top: 10em;
-          }
+       
+          
           .t-m-c-d{
             margin-top: 10em;
           
@@ -56,11 +43,5 @@ h1,h2,h3,h4,h5,h6{
             font-size: 40px;
             width: 250px;
           }
-          .frame{
-            display: flex;
-            justify-content: space-between;
-          }
-          .skill{
-            display: flex;
-            justify-content: space-between;
-          }
+          
+         
