@@ -1,56 +1,99 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
-*{
-    font-family: Poppins, Arial, Helvetica, sans-serif;
-    
+
+* {
+  font-family: Poppins, Arial, Helvetica, sans-serif;
 }
-li{
-    list-style-type: none;
+
+li {
+  list-style-type: none;
 }
-a{
-    text-decoration: none;
+
+a {
+  text-decoration: none;
 }
-h1,h2,h3,h4,h5,h6{
-    color:#172B4D;
-    font-weight: 700;
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #172b4d;
+  font-weight: 700;
+}
+
+.t-m-c {
+  margin: 3.5em;
+}
+
+.cwd {
+  width: 80%;
+}
+
+.neg-margin {
+  margin-top: -20%;
 }
 
 #headline {
+  background: url("images/header-shapes\ mobile.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 718px;
+}
+
+.t-m-c-d {
+  margin-top: 10em;
+}
+
+.c-w {
+  font-size: 40px;
+  width: 250px;
+}
+
+.work {
+  background-color: #f7f7f9;
+}
+
+.about {
+  border-top-right-radius: 7rem;
+}
+
+.contact {
+  border-top-left-radius: 7rem;
+}
+
+@media screen and (min-width: 766px) {
+  #headline {
     background-image: url("images/Header\ bg.svg");
     background-repeat: no-repeat;
     background-size: contain;
     width: 100%;
     background-position: center;
     height: 800px;
-        } 
-        .t-m-c{
-            margin: 3.5em;
-        }
-        .cwd{
-            width: 80%;
-        }
-        .neg-margin{
-            margin-top: -20%;
-        }
-       
-       
-          
-          .t-m-c-d{
-            margin-top: 10em;
-          
-          }
-          .c-w{
-            font-size: 40px;
-            width: 250px;
-          }
+  }
 
-.work {
-    background-color: #f7f7f9;
+  .background-image {
+    background: #1a30ff;
+    background-image: url("images/contact\ form\ background\ shapes@2x.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    height: 846px;
+  }
 }
 
-.about {
-    border-top-right-radius: 7rem;
+@media screen and (max-width: 766px) {
+  * {
+    font-family: Poppins, Arial, Helvetica, sans-serif;
+  }
+
+  #headline {
+    background-size: cover;
+  }
 }
 
-.contact {
-    border-top-left-radius: 7rem;
-        }
+@media screen and (max-width: 455px) {
+  #headline {
+    background-size: contain;
+  }
+}
