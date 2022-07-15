@@ -71,9 +71,10 @@
                 </div>
             </section>
 
-            <section class="Work container-lg">
-              <div class = "d-none d-md-block col-md-12">
-                <div class="card mb-3 d-none d-md-block t-m-c-d" style="width: 100%;">
+            <section class="work">
+              <div class="container-lg">
+              <div class = "d-md-block col-md-12">
+                <div class="card mb-3 d-md-block t-m-c-d" style="width: 100%;">
                  <div class="row g-0">
                    <div class="col-md-5">
                      <img src="images/desktop-section-1.png" class="img-fluid rounded-start" alt="Image for Desktop card 1">
@@ -82,14 +83,14 @@
                      <div class="card-body">
                        <h4 class="card-title display-4">Tonic</h4>
                        <div class="list-container">
-<ul class = "d-flex ps-2 gap-3">
- <li><a href="" style = "color:#344563">CANOPY</a></li>
- <li><img src="images/c1.png" alt="image of a dot" /></li>
- <li><a href="" style = "color:#7A869A">Back End Dev</a></li>
- <li><img src="images/c1.png" alt="image of a dot" /></li>
- <li><a href="" style = "color: #7A869A" >2015</a></li>
-</ul>
-</div>
+                        <ul class = "d-flex ps-2 gap-3">
+                          <li><a href="" style = "color:#344563">CANOPY</a></li>
+                          <li><img src="images/c1.png" alt="image of a dot" /></li>
+                          <li><a href="" style = "color:#7A869A">Back End Dev</a></li>
+                          <li><img src="images/c1.png" alt="image of a dot" /></li>
+                          <li><a href="" style = "color: #7A869A" >2015</a></li>
+                         </ul>
+                         </div>
                        <p class="card-text ms-2"> A daily selection of privately personalized reads; no accounts or
                            sign-ups required.</p>
                            <div class="base-links">
@@ -102,16 +103,17 @@
                              <div class="base-button ms-1">
                                <a class = "btn btn-outline-primary" href="">See Project</a>
                              </div>
-                   
-               </div>
-                 </div>
-                 </div>
-                 </div>
+                            </div>
+                          </div>
+                          </div>
+                          </div>
                  <!-------------------------------End of card 1--------------------------------------------------->
 
-                 <div class="card mb-3 d-none d-md-block t-m-c-d" style="width: 100%;">
-                  <div class="row g-0">
-                   
+                 <div class="card mb-3 t-m-c-d" style="width: 100%;">
+                  <div class="row g-0 d-flex flex-row-reverse">
+                    <div class="col-md-5">
+                      <img src="images/desktop-section-2.png" class="img-fluid rounded-start" alt="Image for Desktop card 1">
+                    </div>
                     <div class="col-md-7">
                       <div class="card-body">
                         <h5 class="card-title display-6">Multi-Post-Stories</h5>
@@ -146,14 +148,11 @@
                     
                 </div>
                   </div>
-                  <div class="col-md-5">
-                    <img src="images/desktop-section-2.png" class="img-fluid rounded-start" alt="Image for Desktop card 1">
-                  </div>
                   </div>
                   </div>
                   <!-----------------------------------End of card 2 ----------------->
 
-                  <div class="card mb-3 d-none d-md-block t-m-c-d" style="width: 100%;">
+                  <div class="card mb-3 d-md-block t-m-c-d" style="width: 100%;">
                     <div class="row g-0">
                       <div class="col-md-5">
                         <img src="images/desktop-section-3.png" class="img-fluid rounded-start" alt="Image for Desktop card 1">
@@ -192,15 +191,16 @@
                       
                   </div>
                     </div>
-                   
                     </div>
                     </div>
 
 
                   <!----------------End of card 3------------------------>
-                  <div class="card mb-3 d-none d-md-block t-m-c-d" style="width: 100%;">
-                    <div class="row g-0">
-                     
+                  <div class="card mb-3 d-md-block t-m-c-d" style="width: 100%;">
+                    <div class="row g-0 d-flex flex-row-reverse">
+                      <div class="col-md-5">
+                        <img src="images/desktop-section-4.png" class="img-fluid rounded-start" alt="Image for Desktop card 4">
+                      </div>
                       <div class="col-md-7">
                         <div class="card-body">
                           <h5 class="card-title display-6">Uber Navigation</h5>
@@ -234,9 +234,6 @@
                                 </div>
                       
                   </div>
-                    </div>
-                    <div class="col-md-5">
-                      <img src="images/desktop-section-4.png" class="img-fluid rounded-start" alt="Image for Desktop card 4">
                     </div>
                     </div>
                     </div>
@@ -343,8 +340,11 @@
                 </div>
               </div>
             </section>----->
+            </div>
+            </section>
              <!---About me section--->
-             <div class = "container-lg my-5">
+             <section class="about">
+             <div class = "about container-lg my-5">
                 <div class = "row justify-content-center align-items-center g-2">
                   <div class = "col-11 col-md-6" >
                 <div class = "text-start">
@@ -437,9 +437,36 @@
               </div>
               </div>
               </div>
+            </section>
        </main>
-       <footer>
 
+       <footer>
+      <div class = "container-xxl background-image pb-5 bg-primary mt-5 contact">
+        <div class = "row justify-content-center align-items-center">
+           <div class = "col-10 col-md-6 col-lg-5">
+            <h4 class = "mt-5 pt-5 d-md-block text-light display-4 text-center fw-bold">Contact me</h4>
+            <p class = "lead text-center text-light mt-3">If you have an application you are interested in developing, a feature that you need built or a project that needs coding. I’d love to help with it</p>
+            <form class = "pb-5">
+              <div class="mb-3 mt-4">
+                <label for="exampleInputEmail1" class="form-label d-none">Name</label>
+                <input type="email" class="form-control rounded-0" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Dickson">
+              </div>
+              <div class="mb-3 mt-4">
+                <label for="exampleInputPassword1" class="form-label d-none">Email</label>
+                <input type="text" class="form-control rounded-0" id="exampleInputPassword1" placeholder = "example@gmail.com">
+                <div id="emailHelp" class="form-text d-none">We'll never share your email with anyone else.</div>
+              </div>
+              <div class="mb-3 mt-4">
+                <label for = "message" class = "d-none">Message:</label>
+                <textarea class = "form-control rounded-0" style = "height: 140px"placeholder = "Enter your Message"></textarea>
+              </div>
+              <div class="d-flex justify-content-center">
+             <input type = "button" class = "btn btn-light text-primary" value = "Get in touch">
+             </div>
+            </form>
+          </div> 
+        </div>
+      </div>
        </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>

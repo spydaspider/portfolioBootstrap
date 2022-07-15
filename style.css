@@ -13,6 +13,7 @@ h1,h2,h3,h4,h5,h6{
     color:#172B4D;
     font-weight: 700;
 }
+
 #headline {
     background-image: url("images/Header\ bg.svg");
     background-repeat: no-repeat;
@@ -41,6 +42,15 @@ h1,h2,h3,h4,h5,h6{
             font-size: 40px;
             width: 250px;
           }
-          
-         
 
+.work {
+    background-color: #f7f7f9;
+}
+
+.about {
+    border-top-right-radius: 7rem;
+}
+
+.contact {
+    border-top-left-radius: 7rem;
+        }
